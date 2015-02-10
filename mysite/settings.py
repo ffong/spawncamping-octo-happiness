@@ -59,11 +59,11 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'aplus_db',
-        'USER': 'aplus_admin',
-        'PASSWORD': 'aplus',
-        'HOST': '127.0.0.1',
+        'NAME': 'djangostack',
+        'HOST': '/Applications/djangostack-1.6.10-0/postgresql',
         'PORT': '5432',
+        'USER': 'bitnami',
+        'PASSWORD': 'f833594bb0'
     }
 }
 # Internationalization
